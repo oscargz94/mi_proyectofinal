@@ -35,3 +35,33 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+.s1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 120px 0 120px;
+}
+.informacion {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.informacion figure img{
+    width: 100%;
+    justify-items: stretch;
+}
+.info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
