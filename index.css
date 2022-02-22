@@ -30,10 +30,38 @@ body {
 #fondo1 {
     background-image: url(https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg);
 }
+.bgfondo {
+    background-color: rgb(0, 0, 0, 0.5);
+    padding-bottom: 270px;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;   
+}
+.botonmain {
+    text-decoration: none;
+    color: #fff;
+}
+.botonsec {
+    text-decoration: none;
+}
+main h1 {
+    font-size: 100px;
+    margin-top: 190px;
+    font-weight: bold;
+}
+main p {
+    font-size: 20px;
+}
 .servicios {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin: 20px 0 10px 0;
 }
 .s1 {
     display: flex;
