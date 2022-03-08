@@ -14,33 +14,40 @@ body {
     display: flex;
     justify-content: center;
 }
-.menu ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    font-size: 22px;
-    list-style-type: none;
-    margin-top: 50px;
-}
-.menu ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;    
+.menu {
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        font-size: 22px;
+        list-style-type: none;
+        margin-top: 50px; 
+        li {
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-weight: 600;  
+            }
+        }
+    }
 }
 #fondo1 {
     background-image: url(https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg);
-}
-.bgfondo {
-    background-color: rgb(0, 0, 0, 0.5);
-    padding-bottom: 270px;
-
 }
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: #fff;   
+    color: #fff;
+    h1 {
+        font-size: 100px;
+        margin-top: 190px;
+        font-weight: bold;
+    } 
+    p {
+        font-size: 20px;
+    }  
 }
 .botonmain {
     text-decoration: none;
@@ -48,14 +55,6 @@ main {
 }
 .botonsec {
     text-decoration: none;
-}
-main h1 {
-    font-size: 100px;
-    margin-top: 190px;
-    font-weight: bold;
-}
-main p {
-    font-size: 20px;
 }
 .servicios {
     display: grid;
@@ -74,11 +73,11 @@ main p {
 .informacion {
     display: grid;
     grid-template-columns: auto auto;
-}
-.informacion figure img{
-    width: 100%;
-    justify-items: stretch;
-}
+        img {
+            width: 100%;
+            justify-items: stretch;
+        }
+}    
 .info1 {
     display: flex;
     flex-direction: column;
@@ -120,23 +119,25 @@ main p {
     padding: 1px 2px;
 }
 .btn {
-    margin-top: 20px;
+    margin-top: 20px;  
 }
-.contact h4 {
-    font-family:inherit;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #100f5c!important;
-    letter-spacing: 1px;
-    line-height: 1.5em;
-    font-weight: 800;
-}
+.contact {
+    h4 {
+        font-family:inherit;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #100f5c!important;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+        font-weight: 800;
+    }
+}  
 footer {
     background-color: #1f1f1f;
-    padding: 15px 0 5px;    
-}
-footer a {
-    color: #fcfcfc;
-    text-decoration: none;
-    margin-left: 50px;
+    padding: 15px 0 5px; 
+    a {
+        color: #fcfcfc;
+        text-decoration: none;
+        margin-left: 50px;
+    }
 }

@@ -29,7 +29,7 @@
         <div class="bgfondo">
             <nav class="nav-container sticky-top">
                 <div class="logo">
-                    <a href="/"><img src="" alt="Negocio1"></a>
+                    <a href="/"><img src="https://img.icons8.com/ios-filled/50/000000/conference.png/" alt="Negocio1"></a>
                 </div>
                 <nav class="menu">
                     <ul>
@@ -49,6 +49,7 @@
                 </main>
         </div>    
     </header> 
+    <!--Servicios-->
     <section class="servicios">
         <article class="s1">
             <img src="https://img.icons8.com/ios/150/000000/dmitri-mendeleev.png" class="rounded-circle border border-dark" alt="servicio1">
@@ -88,51 +89,50 @@
             <h3>Sedes</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, id. Quia alias culpa pariatur, sunt provident obcaecati laborum. Culpa, placeat nisi saepe vel ex molestiae! Iure veritatis nam ut cupiditate.</p>
             <button type="button" class="btn btn-outline-primary">
-                <a class="botonsec" href="sedes.html">Ir a Sedes</a>
+                <a class="botonsec" href="./pages/sedes.html">Ir a Sedes</a>
             </button>
-        </article>
-               
+        </article>        
     </div>
-    <div class="contact-form">
-        <!--crear formulario de contacto-->
-        <p>
-            <label>Nombre y apellido</label><br>
-            <input type="text" name="name" placeholder="Nombre y apellido">
-        </p>
-        <p>
-            <label>Email</label><br>
-            <input type="email" name="email" required placeholder="Email">
-        </p>
-        <p>
-            <label>Elije un servicio</label><br>
-            <select>
-              <option>Lorem ipsum</option>
-              <option>Lorem ipsum</option>
-              <option>Lorem ipsum</option>
-              <option>Lorem ipsum</option>
-              <option>Lorem ipsum</option>
-            </select>
-          </p>
-          <textarea maxlength="300" cols="40" rows="7" placeholder="Mensaje"></textarea>
-          <button type="submit" name="send">Enviar</button>
-    </div>
-    <!--Info de contacto-->
-    <div class="contact">
-        <h4>Teléfonos:</h4>
-        <p>+123456789</p>
-        <p>+123456789</p>
-        <p>Horarios de atención: L a V de 10:00 am a 18:30 pm</p>
-        <h4>Mail</h4>
-        <p>example@example.com</p>
-        <h4>Dirección</h4>
-        <p>Calle 1 - Ciudad</p>
-        <p>Calle 2 - Ciudad</p>
-    </div>
+    <section class="formulariopadre">
+        <div class="contact-form">
+            <!--crear formulario de contacto-->
+            <p>
+                <input type="text" name="name" placeholder="Nombre y apellido">
+            </p>
+            <p>
+                <input type="email" name="email" required placeholder="Email">
+            </p>
+            <p>
+                <label>Elije un servicio</label><br>
+                <select>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                </select>
+            </p>
+            <textarea maxlength="300" cols="40" rows="7" placeholder="Mensaje"></textarea>
+            <button class="btn btn-primary btn-lg" type="submit" name="send">Enviar</button>
+        </div>
+        <!--Info de contacto-->
+        <div class="contact">
+            <h4>Teléfonos:</h4>
+            <p>+123456789</p>
+            <p>+123456789</p>
+            <p>Horarios de atención: L a V de 10:00 am a 18:30 pm</p>
+            <h4>Mail</h4>
+            <p>example@example.com</p>
+            <h4>Dirección</h4>
+            <p>Calle 1 - Ciudad</p>
+            <p>Calle 2 - Ciudad</p>
+        </div>
+    </section>
     <footer>
-        <a href="/">Aviso Legal</a>
-        <a href="/">Terminos y condiciones</a>
-        <a href="/">Politica de cookies</a>
-        <a href="/">Recursos usados en la página</a>
+        <a href="/">| Aviso Legal</a>
+        <a href="/">| Terminos y condiciones</a>
+        <a href="/">| Politica de cookies</a>
+        <a href="/">| Recursos usados en la página</a>
     </footer>
 </body>
 </html>
