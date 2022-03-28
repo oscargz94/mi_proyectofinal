@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sedes</title>
-    <link rel="stylesheet" href="../css/sedes.css">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/contacto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
@@ -37,34 +37,47 @@
             </ul>
         </nav>
     </nav>
-    <section class="direcciones">
-        <article class="sede1">
-            <h1>Sedes Nacionales</h1>
-            <p>av.Republica Panama 2878</p>
-            <p>Horario de atencion: L - V 8:00 am a 5:00 pm</p>
-            <P>Telefono: 0013 435 322</P>
-        </article>
-        <img src="https://www.google.com/maps/d/thumbnail?mid=1Nqjr8gsr1rX-bJWNfD2OcBOgpbQ&hl=es">
-        <article class="sede2">
-            <h1>Sedes Nacionales</h1>
-            <p>av.Republica Panama 2878</p>
-            <p>Horario de atencion: L - V 8:00 am a 5:00 pm</p>
-            <P>Telefono: 0013 435 322</P>
-        </article>
-        <img src="https://www.google.com/maps/d/thumbnail?mid=1Nqjr8gsr1rX-bJWNfD2OcBOgpbQ&hl=es">
-        <article class="sede3">
-            <h1>Sedes Nacionales</h1>
-            <p>av.Republica Panama 2878</p>
-            <p>Horario de atencion: L - V 8:00 am a 5:00 pm</p>
-            <P>Telefono: 0013 435 322</P>
-        </article>
-        <img src="https://www.google.com/maps/d/thumbnail?mid=1Nqjr8gsr1rX-bJWNfD2OcBOgpbQ&hl=es">
+    <section class="formulariopadre">
+        <div class="contact-form">
+            <!--crear formulario de contacto-->
+            <h4>Contacto</h4>
+            <p>
+                <input type="text" name="name" placeholder="Nombre y apellido">
+            </p>
+            <p>
+                <input type="email" name="email" required placeholder="Email">
+            </p>
+            <p>
+                <label>Elije un servicio</label><br>
+                <select>
+                <option>Call Service</option>
+                <option>Bots Cobranza</option>
+                <option>Asesoria Call</option>
+                <option>Escuela Call</option>
+                </select>
+            </p>
+            <textarea maxlength="300" cols="40" rows="7" placeholder="Mensaje"></textarea>
+            <button class="btn-dark btn btn-primary btn-lg" type="submit" name="send">
+                <a href="/">Enviar</a>
+            </button>
+        </div>
+        <!--Info de contacto--> 
+        <div class="contact">
+            <h4>Teléfonos:</h4>
+            <p>+123456789</p>
+            <p>+123456789</p>
+            <p>Horarios de atención: L a V de 10:00 am a 18:30 pm</p>
+            <h4>Mail</h4>
+            <p>example@example.com</p>
+            <h4>Dirección</h4>
+            <p>Calle 1 - Ciudad</p>
+            <p>Calle 2 - Ciudad</p>
+        </div>
     </section>
     <footer>
         <a href="./pages/terminos.html">| Aviso Legal</a>
         <a href="./pages/terminos.html">| Terminos y condiciones</a>
         <a href="./pages/terminos.html">| Politica de cookies</a>
-
-    </footer>
+    </footer>   
 </body>
 </html>

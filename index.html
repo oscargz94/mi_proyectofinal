@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IntelReddly</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
@@ -29,21 +29,21 @@
         <div class="bgfondo">
             <nav class="nav-container sticky-top">
                 <div class="logo">
-                    <a href="/"><img src="https://img.icons8.com/ios-filled/50/000000/conference.png/" alt="Negocio1"></a>
+                    <a href="index.html"><img src="https://img.icons8.com/ios-filled/50/000000/conference.png/" alt="Negocio1"></a>
                 </div>
                 <nav class="menu">
                     <ul>
-                        <li><a href="/">Inicio</a></li>
-                        <li><a href="./servicios.html">Servicios</a></li>
-                        <li><a href="./socios.html">Socios</a></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="./pages/servicios.html">Servicios</a></li>
+                        <li><a href="./pages/socios.html">Socios</a></li>
                     </ul>
                 </nav>
             </nav>
                 <main>
                     <h1>IntelReddly</h1>
                     <p>Llevamos a cabo un servicio por excelencia dedicado a la cobranza en call center, implementando la tecnologia...</p>
-                    <button type="button" class="btn btn-primary btn-lg">
-                        <a class="botonmain" href="./contacto">Contáctanos para más información</a>
+                    <button type="button" class="btn-dark btn btn-primary btn-lg">
+                        <a class="botonmain" href="./pages/contacto.html">Contáctanos para más información</a>
                     </button>
                 </main>
         </div>    
@@ -57,7 +57,7 @@
         </article>
         <article class="s1">
             <img src="https://img.icons8.com/ios/150/000000/edgar-allan-poe.png" class="rounded-circle border border-dark" alt="servicio2">
-            <h2>Herramientas tecnologicas en la cobranza</h2>
+            <h2>Herramientas tecnologicas</h2>
             <p>Basados en estrategias de gestión personalizadas por cada usuario y de forma 100% digital, IntelReddly logra cumplir, incluso superar las metas de recuperación de nuestros clientes..</p>
         </article>
          <article class="s1">
@@ -72,22 +72,19 @@
         </article>
     </section>
     <div class="informacion">
-        <article class="info1 p-3 mb-2 bg-light text-dark"> 
+        <article class="info1"> 
             <h3>Indicadores para el analisis de la cobranza</h3>
             <p>Kpis practicos y completos para analisis de cartera y empresa, para toma de decisiones gerenciales</p>
-            <button type="button" class="btn btn-outline-primary">
-                <a class="botonsec" href="./indicadores.html">Ir a Indicadores</a>
+            <button type="button" class="btn-light btn btn-outline-primary">
+                <a class="botonsec" href="./pages/indicadores.html">Ir a Indicadores</a>
             </button>
         </article>
-        <figure class="fig1"><img src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg" alt="info1">
-        </figure> 
-        <figure class="fig2">
-            <img src="https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg" alt="info2">
-        </figure> 
-        <article class="info2 p-3 mb-2 bg-light text-dark">
+        <img class="fig1" src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg" alt="info1">
+        <img class="fig2" src="https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg" alt="info2">
+        <article class="info2">
             <h3>Sedes</h3>
             <p>Actualmente nuestra unica sede principal esta San Isidro, con proyecto de ampliacion en cono sur y norte.</p>
-            <button type="button" class="btn btn-outline-primary">
+            <button type="button" class="btn-light btn btn-outline-primary">
                 <a class="botonsec" href="./pages/sedes.html">Ir a Sedes</a>
             </button>
         </article>        
@@ -112,7 +109,9 @@
                 </select>
             </p>
             <textarea maxlength="300" cols="40" rows="7" placeholder="Mensaje"></textarea>
-            <button class="btn btn-primary btn-lg" type="submit" name="send">Enviar</button>
+            <button class="btn-dark btn btn-primary btn-lg" type="submit" name="send">
+                <a href="">Enviar</a>
+            </button>
         </div>
         <!--Info de contacto-->
         <div class="contact">
@@ -128,10 +127,10 @@
         </div>
     </section>
     <footer>
-        <a href="./avisolegal.html">| Aviso Legal</a>
-        <a href="./terminos.html">| Terminos y condiciones</a>
-        <a href="politica.html">| Politica de cookies</a>
-        <a href="./recursos.html">| Recursos usados en la página</a>
+        <a href="./pages/terminos.html">| Aviso Legal</a>
+        <a href="./pages/terminos.html">| Terminos y condiciones</a>
+        <a href="./pages/terminos.html">| Politica de cookies</a>
+
     </footer>
 </body>
 </html>
