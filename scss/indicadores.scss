@@ -67,10 +67,10 @@ footer {
             justify-items: center;
 
             .img1 {
-                height: 600px;
+                height: 300px;
             }
             .img2 {
-                height: 400px;
+                height: 200px;
             }
         }
         p {
@@ -79,8 +79,7 @@ footer {
         }
     }
     footer {
-        position: absolute;
         width: 100%;
-        
+        position: absolute;
     }
 }

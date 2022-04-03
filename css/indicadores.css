@@ -69,10 +69,10 @@ footer a {
     justify-items: center;
   }
   .graficos figure .img1 {
-    height: 600px;
+    height: 300px;
   }
   .graficos figure .img2 {
-    height: 400px;
+    height: 200px;
   }
   .graficos p {
     padding: 0 8px 0 8px;
@@ -80,8 +80,8 @@ footer a {
   }
 
   footer {
-    position: absolute;
     width: 100%;
+    position: absolute;
   }
 }
 
