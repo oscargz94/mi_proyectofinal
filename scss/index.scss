@@ -1,3 +1,4 @@
+/*Intenté aplicar otras soluciones que me ofrese SASS para hacer css, pero las que más me parecieron útiles fueron nesting y @extend. La justificación es que mis archivos de css no tienen muchas propiedades repetidas, salvo algunas excepciones como elementos con los mismos valores, que facilmente solucioné con @extend.*/
 body {
     background-color: #fff;
 }
@@ -124,14 +125,10 @@ main {
     }
 }
 .info2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    /*Aplicando extend de SASS*/
+    @extend .info1;
     h3 {
-        color: var(--primary-color);
-        padding-bottom: 6px;
+        @extend h3
     }
     p {
         padding: 0 12px 0 12px;
@@ -196,4 +193,60 @@ footer {
         text-decoration: none;
         margin-left: 50px;
     }
+}
+@media (max-width: 375px) {
+    main {
+        .title {
+            font-size: 24px;
+        }
+    }
+    .servicios {
+        display: block;
+        .s1 {
+            padding: 24px;
+            p {
+                padding: 0 24px 0 24px;
+            }
+        }
+    }
+    .informacion {
+        display: block;
+        margin-bottom: 8px;
+        .info1 {
+            margin-bottom: 8px;
+            h3 {
+                padding: 8px 0 8px 0;
+            }
+            p {
+                margin: 0px 0 8px 0;
+            }
+        }
+        .fig1 {
+            display: none;
+        }
+        .info2 {
+            margin-bottom: 8px;
+            h3 {
+                padding: 8px 0 8px 0;
+            }
+            p {
+                margin: 0px 0 8px 0;
+            }
+        }
+    }
+    .formulariopadre {
+        display: block;
+        margin: 24px;
+        .contact-form {
+            width: 100%;
+            margin-bottom: 24px;
+            textarea {
+                width: 100%;
+            }
+        }
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }       
 }

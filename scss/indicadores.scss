@@ -55,3 +55,27 @@ footer {
         margin-left: 50px;
     }
 }
+@media (max-width: 375px) {
+    .graficos {
+        h2 {
+            text-align: center;
+        }
+        display: block;
+        figure {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+
+            .img1 {
+                height: 300px;
+            }
+            .img2 {
+                height: 200px;
+            }
+        }
+        p {
+            padding: 0 8px 0 8px;
+            text-align: center;
+        }
+    }
+}

@@ -88,4 +88,63 @@ footer a {
   margin-left: 50px;
 }
 
+@media (max-width: 375px) {
+  main .title {
+    font-size: 24px;
+  }
+
+  .servicios {
+    display: block;
+  }
+  .servicios .s1 {
+    padding: 24px;
+  }
+  .servicios .s1 p {
+    padding: 0 24px 0 24px;
+  }
+
+  .informacion {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .informacion .info1 {
+    margin-bottom: 8px;
+  }
+  .informacion .info1 h3 {
+    padding: 8px 0 8px 0;
+  }
+  .informacion .info1 p {
+    margin: 0px 0 8px 0;
+  }
+  .informacion .fig1 {
+    display: none;
+  }
+  .informacion .info2 h3 {
+    padding: 8px 0 8px 0;
+  }
+  .informacion .info2 p {
+    margin: 0px 0 8px 0;
+  }
+  .informacion .info2 button {
+    margin-bottom: 8px;
+  }
+
+  .formulariopadre {
+    display: block;
+    margin: 24px;
+  }
+  .formulariopadre .contact-form {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .formulariopadre .contact-form textarea {
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=contacto.css.map */

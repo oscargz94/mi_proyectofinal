@@ -24,19 +24,19 @@
   font-weight: 500;
 }
 
-.derecciones {
-  display: grid;
-  grid-template-columns: auto auto;
+.direcciones {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+  margin: 48px 0 48px 0;
 }
-.derecciones .sede1 {
+.direcciones .sede1, .direcciones img, .direcciones .sede3, .direcciones .sede2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  justify-content: center;
 }
-
 footer {
   background-color: #1f1f1f;
   padding: 16px 0 16px;
@@ -46,6 +46,28 @@ footer a {
   color: #fcfcfc;
   text-decoration: none;
   margin-left: 50px;
+}
+
+@media (max-width: 375px) {
+  .direcciones {
+    display: block;
+    width: 100%;
+  }
+  .direcciones .sede1, .direcciones .sede2, .direcciones .sede3, .direcciones img {
+    justify-items: center;
+    margin: 24px;
+  }
+  .direcciones .sede1 img, .direcciones .sede2 img, .direcciones .sede3 img, .direcciones img img {
+    height: 300px;
+  }
+  .direcciones .sede2 {
+    justify-items: center;
+    margin: 24px;
+  }
+  .direcciones .sede3 {
+    justify-items: center;
+    margin: 24px;
+  }
 }
 
 /*# sourceMappingURL=sedes.css.map */

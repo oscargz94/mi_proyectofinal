@@ -56,4 +56,28 @@ footer a {
   margin-left: 50px;
 }
 
+@media (max-width: 375px) {
+  .graficos {
+    display: block;
+  }
+  .graficos h2 {
+    text-align: center;
+  }
+  .graficos figure {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+  .graficos figure .img1 {
+    height: 300px;
+  }
+  .graficos figure .img2 {
+    height: 200px;
+  }
+  .graficos p {
+    padding: 0 8px 0 8px;
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=indicadores.css.map */
