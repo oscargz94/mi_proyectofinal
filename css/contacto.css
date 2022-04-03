@@ -88,7 +88,7 @@ footer a {
   margin-left: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 720px) {
   main .title {
     font-size: 24px;
   }

@@ -206,9 +206,12 @@ footer a {
   margin-left: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 720px) {
   main .title {
-    font-size: 24px;
+    font-size: 48px;
+  }
+  main p {
+    padding: 0 24px 0 24px;
   }
 
   .servicios {

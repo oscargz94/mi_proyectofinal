@@ -55,7 +55,7 @@ footer {
         margin-left: 50px;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 720px) {
     .graficos {
         h2 {
             text-align: center;
@@ -67,15 +67,20 @@ footer {
             justify-items: center;
 
             .img1 {
-                height: 300px;
+                height: 600px;
             }
             .img2 {
-                height: 200px;
+                height: 400px;
             }
         }
         p {
             padding: 0 8px 0 8px;
             text-align: center;
         }
+    }
+    footer {
+        position: absolute;
+        width: 100%;
+        
     }
 }
